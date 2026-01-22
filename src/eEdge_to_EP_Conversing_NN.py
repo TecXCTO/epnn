@@ -1,9 +1,8 @@
 
 # Elementary Edge to Elementary Particle Conversing Neural Network
-class EEtoEPCNN(self, parameters, *args, **kwargs):
-  def __init__(self):
-    #
-
+class EEtoEPCNN(EEtoEPCNN):
+  def __init__(self, parameters, *args, **kwargs ):
+    # self.param = parameters
   def train(self):
     return
   def test(self):
